@@ -1,5 +1,2 @@
-FROM ghcr.io/imputnet/cobalt:10
-
-EXPOSE 9000
-
-CMD ["node", "src/cobalt.js"]
+FROM alexta69/metube:latest
+EXPOSE 8081
